@@ -3,7 +3,7 @@ class PrettyPrinter():
     def __init__(self):
         '''Initialize fix with fcgm properties'''
 
-        from .pyfixorchestra import FixDictionary
+        from pyfixorchestra import FixDictionary
 
         field = FixDictionary('fields')
         self.fields = (field.generateDictionary()) # [names, temp]
