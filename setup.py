@@ -18,3 +18,6 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
 )
+install_requires=[
+	'pyfixorchestra@git+https://github.com/FIXTradingCommunity/pyfixorchestra',
+]
