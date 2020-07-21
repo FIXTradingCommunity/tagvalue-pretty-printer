@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name="tagvalueprettyprinter-ninadmohale", # Replace with your own username
+    name="tagvalueprettyprinter", # Replace with your own username
     version="1.0.0",
     author="Ninad Mohale",
     author_email="nrmohale@mtu.edu",
