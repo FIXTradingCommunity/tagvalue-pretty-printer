@@ -18,6 +18,6 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-	'python_world@git+https://github.com/ceddlyburge/python_world#egg=python_world-0.0.1',
+	'pyfixorchestra@git+https://github.com/FIXTradingCommunity/pyfixorchestra.git',
 ]
 )
