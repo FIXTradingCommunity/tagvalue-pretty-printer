@@ -16,8 +16,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=[
-    	'pyfixorchestra@git+https://github.com/FIXTradingCommunity/pyfixorchestra',
-    ],
     python_requires='>=3.6',
 )
